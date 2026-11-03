@@ -11,3 +11,5 @@ def schedule_meetings(intervals: list[tuple[int, int]]) -> tuple[int, list]:
 
 if __name__ == "__main__":
     print(schedule_meetings([(0, 30), (5, 10), (15, 20)]))
+    print(schedule_meetings([(0, 10), (5, 15), (10, 20)]))
+    print(schedule_meetings([(9, 10), (10, 12)]))

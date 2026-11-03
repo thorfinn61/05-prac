@@ -1,4 +1,3 @@
-
 def island_matrix_counter(matrix: list[list[str]]) -> int:
     seen = set()
     count = 0
@@ -17,5 +16,6 @@ def island_matrix_counter(matrix: list[list[str]]) -> int:
                     stack += [(i + 1, j), (i - 1, j), (i, j + 1), (i, j - 1)]
     return count
 
+
 if __name__ == "__main__":
-    print(island_matrix_counter([]))
+    print(island_matrix_counter([["1","0","1"], ["0","1","0"], ["1","0","1"]]))
